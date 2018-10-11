@@ -1,3 +1,4 @@
+.gitignore
 *.sublime-project
 *.sublime-workspace
 todo.txt
@@ -6,13 +7,12 @@ reset-files.bash
 *.tar.gz
 
 *.exe
-src/dash
-src/dashd
-src/dash-cli
-src/dash-tx
-src/test/test_dash
-src/qt/test/test_dash-qt
-src/bench/bench_dash
+src/pivx
+src/pivxd
+src/pivx-cli
+src/pivx-tx
+src/test/test_pivx
+src/qt/test/test_pivx-qt
 
 # autoreconf
 Makefile.in
@@ -34,12 +34,16 @@ build-aux/test-driver
 config.log
 config.status
 configure
+confdefs.h
+conftest.cpp
+conftest.err
 libtool
-src/config/dash-config.h
-src/config/dash-config.h.in
+src/config/pivx-config.h
+src/config/pivx-config.h.in
 src/config/stamp-h1
 share/setup.nsi
 share/qt/Info.plist
+contrib/devtools/split-debug.sh
 
 src/univalue/gen
 
@@ -48,7 +52,6 @@ src/qt/moc_*.cpp
 src/qt/forms/ui_*.h
 
 src/qt/test/moc*.cpp
-libconftest.dylib*
 
 .deps
 .dirstamp
@@ -62,6 +65,7 @@ libconftest.dylib*
 *.o
 *.o-*
 *.patch
+.pivx
 *.a
 *.pb.cc
 *.pb.h
@@ -80,16 +84,19 @@ libconftest.dylib*
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
-dash-qt
-Dash-Qt.app
+pivx-qt
+PIVX-Qt.app
 
 # Unit-tests
 Makefile.test
-dash-qt_test
+pivx-qt_test
 src/test/buildenv.py
 
 # Resources cpp
 qrc_*.cpp
+
+# Qt creator
+*.pro.user
 
 # Mac specific
 .DS_Store
@@ -97,9 +104,8 @@ build
 
 #lcov
 *.gcno
-*.gcda
 /*.info
-test_dash.coverage/
+test_pivx.coverage/
 total.coverage/
 coverage_percent.txt
 
@@ -107,29 +113,18 @@ coverage_percent.txt
 linux-coverage-build
 linux-build
 win32-build
-qa/pull-tester/tests_config.py
-qa/cache/*
+qa/pull-tester/run-bitcoind-for-test.sh
+qa/pull-tester/tests-config.sh
+qa/pull-tester/cache/*
+qa/pull-tester/test.*/*
 
 !src/leveldb*/Makefile
 
 .cproject
 .project
-.autotools
 /doc/doxygen/
+/nbproject/
 
-libdashconsensus.pc
-contrib/devtools/split-debug.sh
-src/qt/dash-qt.bash
-qa/pull-tester/tests-config.sh
-
-#development symlinks
-dash-cli
-dashd
-dash-qt
-make
-
-/docker/bin
-
-# CLion
 .idea
+CMakeLists.txt
 cmake-build-debug
