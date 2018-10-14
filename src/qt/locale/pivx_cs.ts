@@ -62,12 +62,12 @@
         <translation>Adresy pro přijetí peněz</translation>
     </message>
     <message>
-        <source>These are your PIVX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto jsou Vaše PIVX adresy pro poslání platby. Vždy si překontrolujte množství peněz a cílovou adresu než platbu odešlete.</translation>
+        <source>These are your DWE addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto jsou Vaše DWE adresy pro poslání platby. Vždy si překontrolujte množství peněz a cílovou adresu než platbu odešlete.</translation>
     </message>
     <message>
-        <source>These are your PIVX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto jsou Vaše PIVX adresy pro přijetí plateb. Je doporučeno použít novou adresu pro každou novou transakci.</translation>
+        <source>These are your DWE addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto jsou Vaše DWE adresy pro přijetí plateb. Je doporučeno použít novou adresu pro každou novou transakci.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,8 +176,8 @@
         <translation>Potvrdit zašifrování peněženky</translation>
     </message>
     <message>
-        <source>PIVX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
-        <translation>PIVX se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše PIVy před krádží, pokud je Váš počítač infikován malwarem.</translation>
+        <source>DWE will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
+        <translation>DWE se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše PIVy před krádží, pokud je Váš počítač infikován malwarem.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -239,16 +239,16 @@
         <translation>&amp;BIP 38 Šifrovat</translation>
     </message>
     <message>
-        <source>Enter a Pivx Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Zadejte PIVX adresu, kterou si přejete zašifrovat pomocí BIP38. Frázové heslo zadejte do prostředního boxu. Stiskněte šifrovat pro výpočet šifrovaného privátního klíče.</translation>
+        <source>Enter a Dwe Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Zadejte DWE adresu, kterou si přejete zašifrovat pomocí BIP38. Frázové heslo zadejte do prostředního boxu. Stiskněte šifrovat pro výpočet šifrovaného privátního klíče.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adresa:</translation>
     </message>
     <message>
-        <source>The PIVX address to sign the message with</source>
-        <translation>PIVX adresa pro podepsání zprávy</translation>
+        <source>The DWE address to sign the message with</source>
+        <translation>DWE adresa pro podepsání zprávy</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Kopírovat aktuální podpis do systémové mezipaměti</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this PIVX address</source>
-        <translation>Podepsat zprávu k prokázání, že vlastníte tuto PIVX adresu</translation>
+        <source>Sign the message to prove you own this DWE address</source>
+        <translation>Podepsat zprávu k prokázání, že vlastníte tuto DWE adresu</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Vložte BIP 38 šifrovaný privítní klíc. Frázové heslo vložte do prostředního boxu. Kliknětě na Dešifrovat Klíč pro výpočet privátního klíče. Poté co bude klíč dešifrován, kliknutím na 'Importovat Adresu' přidáte privátní klíč do Vaší peněženky.</translation>
     </message>
     <message>
-        <source>The PIVX address the message was signed with</source>
-        <translation>PIVX adresa zprávy byla podpsána</translation>
+        <source>The DWE address the message was signed with</source>
+        <translation>DWE adresa zprávy byla podpsána</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified PIVX address</source>
-        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou PIVX adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified DWE address</source>
+        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou DWE adresou</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -634,16 +634,16 @@
         <translation>Nástrojová lišta záložek</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>DWE Core</source>
+        <translation>DWE Core</translation>
     </message>
     <message>
-        <source>Send coins to a PIVX address</source>
-        <translation>Odeslat platbuna PIVX adresu</translation>
+        <source>Send coins to a DWE address</source>
+        <translation>Odeslat platbuna DWE adresu</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and pivx: URIs)</source>
-        <translation>Vyžádat platbu (generování QK kódu a pivx: URIs)</translation>
+        <source>Request payments (generates QR codes and dwe: URIs)</source>
+        <translation>Vyžádat platbu (generování QK kódu a dwe: URIs)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -658,24 +658,24 @@
         <translation>Procházet masternody</translation>
     </message>
     <message>
-        <source>&amp;About PIVX Core</source>
-        <translation>&amp;O PIVX Core</translation>
+        <source>&amp;About DWE Core</source>
+        <translation>&amp;O DWE Core</translation>
     </message>
     <message>
-        <source>Show information about PIVX Core</source>
-        <translation>Zobraz informace o PIVX Core</translation>
+        <source>Show information about DWE Core</source>
+        <translation>Zobraz informace o DWE Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for PIVX</source>
-        <translation>Upravit možnosti konfigurace pro PIVX</translation>
+        <source>Modify configuration options for DWE</source>
+        <translation>Upravit možnosti konfigurace pro DWE</translation>
     </message>
     <message>
-        <source>Sign messages with your PIVX addresses to prove you own them</source>
-        <translation>Podepsat zprávy Vaší PIVX adresou pro prokázaní, že jste jejich vlastníkem</translation>
+        <source>Sign messages with your DWE addresses to prove you own them</source>
+        <translation>Podepsat zprávy Vaší DWE adresou pro prokázaní, že jste jejich vlastníkem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified PIVX addresses</source>
-        <translation>Ověřit zprávy k zajištění, že bylypodepsány vybranými PIVX adresami</translation>
+        <source>Verify messages to ensure they were signed with specified DWE addresses</source>
+        <translation>Ověřit zprávy k zajištění, že bylypodepsány vybranými DWE adresami</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -706,8 +706,8 @@
         <translation>Otevřít Masternodový konfigurační soubor</translation>
     </message>
     <message>
-        <source>Open a PIVX: URI or payment request</source>
-        <translation>Otevřít PIVX: URI nebo platební žádost</translation>
+        <source>Open a DWE: URI or payment request</source>
+        <translation>Otevřít DWE: URI nebo platební žádost</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -718,16 +718,16 @@
         <translation>Okno blokového průzkumníka</translation>
     </message>
     <message>
-        <source>Show the PIVX Core help message to get a list with possible PIVX command-line options</source>
-        <translation>Zobrazit PIVX Core pomocnou zpráv pro získání seznamu možných parametrů PIVX pro příkazy do příkazové řádky</translation>
+        <source>Show the DWE Core help message to get a list with possible DWE command-line options</source>
+        <translation>Zobrazit DWE Core pomocnou zpráv pro získání seznamu možných parametrů DWE pro příkazy do příkazové řádky</translation>
     </message>
     <message>
-        <source>PIVX Core client</source>
-        <translation>PIVX Core klient</translation>
+        <source>DWE Core client</source>
+        <translation>DWE Core klient</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to PIVX network</source>
-        <translation><numerusform>Aktivních připojení do sítě PIVX: %n</numerusform><numerusform>Aktivních připojení do sítě PIVX: %n</numerusform><numerusform>Aktivních připojení do sítě PIVX: %n</numerusform></translation>
+        <source>%n active connection(s) to DWE network</source>
+        <translation><numerusform>Aktivních připojení do sítě DWE: %n</numerusform><numerusform>Aktivních připojení do sítě DWE: %n</numerusform><numerusform>Aktivních připojení do sítě DWE: %n</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -877,8 +877,8 @@ MultiSend: %1</translation>
         <translation>TextPopisku</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (pivx.conf).</source>
-        <translation>Ne všechny transakce budou zobrazeny. Pro zobrazení všech transackí nastavte v konfiguračním souboru (pivx.conf) txindex=1.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (dwe.conf).</source>
+        <translation>Ne všechny transakce budou zobrazeny. Pro zobrazení všech transackí nastavte v konfiguračním souboru (dwe.conf) txindex=1.</translation>
     </message>
 </context>
 <context>
@@ -1138,8 +1138,8 @@ MultiSend: %1</translation>
         <translation>Upravit adresu k odeslání platby</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid PIVX address.</source>
-        <translation>Zadaná adresa "%1" není validní PIVX adresa.</translation>
+        <source>The entered address "%1" is not a valid DWE address.</source>
+        <translation>Zadaná adresa "%1" není validní DWE adresa.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1184,12 +1184,12 @@ MultiSend: %1</translation>
         <translation>verze</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>DWE Core</source>
+        <translation>DWE Core</translation>
     </message>
     <message>
-        <source>About PIVX Core</source>
-        <translation>O PIVX Core</translation>
+        <source>About DWE Core</source>
+        <translation>O DWE Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1223,16 +1223,16 @@ MultiSend: %1</translation>
         <translation>Vítejte</translation>
     </message>
     <message>
-        <source>Welcome to PIVX Core.</source>
-        <translation>Vítejte v PIVX Core.</translation>
+        <source>Welcome to DWE Core.</source>
+        <translation>Vítejte v DWE Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where PIVX Core will store its data.</source>
-        <translation>Při prvním spuštění programu si můžete vybrat, kam bude PIVX Core ukládat svá data.</translation>
+        <source>As this is the first time the program is launched, you can choose where DWE Core will store its data.</source>
+        <translation>Při prvním spuštění programu si můžete vybrat, kam bude DWE Core ukládat svá data.</translation>
     </message>
     <message>
-        <source>PIVX Core will download and store a copy of the PIVX block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>PIVX Core stáhne a uloží kopii PIVX blockchainu. Nejméně %1GB dat bude do této složky uloženo a v průběhu času bude ukládat další data. Peněženka bude v této složce uložena také.</translation>
+        <source>DWE Core will download and store a copy of the DWE block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>DWE Core stáhne a uloží kopii DWE blockchainu. Nejméně %1GB dat bude do této složky uloženo a v průběhu času bude ukládat další data. Peněženka bude v této složce uložena také.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1243,8 +1243,8 @@ MultiSend: %1</translation>
         <translation>Použít vlastní složku pro data</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>DWE Core</source>
+        <translation>DWE Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1607,12 +1607,12 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start PIVX after logging in to the system.</source>
-        <translation>Automaticky spustit PIVX po přihlášení do systému</translation>
+        <source>Automatically start DWE after logging in to the system.</source>
+        <translation>Automaticky spustit DWE po přihlášení do systému</translation>
     </message>
     <message>
-        <source>&amp;Start PIVX on system login</source>
-        <translation>&amp;Spusti PIVX při přihlášení do systému</translation>
+        <source>&amp;Start DWE on system login</source>
+        <translation>&amp;Spusti DWE při přihlášení do systému</translation>
     </message>
     <message>
         <source>Show Masternodes Tab</source>
@@ -2269,8 +2269,8 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The PIVX address to sign the message with</source>
-        <translation>PIVX adresa pro podepsání zprávy</translation>
+        <source>The DWE address to sign the message with</source>
+        <translation>DWE adresa pro podepsání zprávy</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2297,16 +2297,16 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Kopírovat aktuální podpis do systémové mezipaměti</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this PIVX address</source>
-        <translation>Podepsat zprávu k prokázání, že vlastníte tuto PIVX adresu</translation>
+        <source>Sign the message to prove you own this DWE address</source>
+        <translation>Podepsat zprávu k prokázání, že vlastníte tuto DWE adresu</translation>
     </message>
     <message>
-        <source>The PIVX address the message was signed with</source>
-        <translation>PIVX adresa zprávy byla podpsána</translation>
+        <source>The DWE address the message was signed with</source>
+        <translation>DWE adresa zprávy byla podpsána</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified PIVX address</source>
-        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou PIVX adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified DWE address</source>
+        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou DWE adresou</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2348,8 +2348,8 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>DWE Core</source>
+        <translation>DWE Core</translation>
     </message>
     </context>
 <context>
@@ -2459,7 +2459,7 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
     </message>
     </context>
 <context>
-    <name>pivx-core</name>
+    <name>dwe-core</name>
     <message>
         <source>Error</source>
         <translation>Chyba</translation>

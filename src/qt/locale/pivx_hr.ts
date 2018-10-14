@@ -115,8 +115,8 @@
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>The PIVX address the message was signed with</source>
-        <translation>PIVX adresa s kojom je potpisana poruka</translation>
+        <source>The DWE address the message was signed with</source>
+        <translation>DWE adresa s kojom je potpisana poruka</translation>
     </message>
     <message>
         <source>Allowed: 0-9,a-z,A-Z,</source>
@@ -150,8 +150,8 @@
         <translation>Otvori konfiguracijsku datoteku</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>DWE Core</source>
+        <translation>DWE Core</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -162,8 +162,8 @@
         <translation>&amp;BIP38 alat</translation>
     </message>
     <message>
-        <source>PIVX Core client</source>
-        <translation>PIVX Core klijent</translation>
+        <source>DWE Core client</source>
+        <translation>DWE Core klijent</translation>
     </message>
     <message>
         <source>Error</source>
@@ -260,15 +260,15 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>DWE Core</source>
+        <translation>DWE Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>DWE Core</source>
+        <translation>DWE Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -612,8 +612,8 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>PIVX Core is shutting down...</source>
-        <translation>PIVX Core se gasi...</translation>
+        <source>DWE Core is shutting down...</source>
+        <translation>DWE Core se gasi...</translation>
     </message>
     </context>
 <context>
@@ -635,8 +635,8 @@
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>The PIVX address the message was signed with</source>
-        <translation>PIVX adresa s kojom je potpisana poruka</translation>
+        <source>The DWE address the message was signed with</source>
+        <translation>DWE adresa s kojom je potpisana poruka</translation>
     </message>
     <message>
         <source>Message signed.</source>
@@ -650,8 +650,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>PIVX Core</source>
-        <translation>PIVX Core</translation>
+        <source>DWE Core</source>
+        <translation>DWE Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -805,7 +805,7 @@
     </message>
     </context>
 <context>
-    <name>pivx-core</name>
+    <name>dwe-core</name>
     <message>
         <source>Error</source>
         <translation>Greška</translation>
