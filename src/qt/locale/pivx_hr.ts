@@ -550,8 +550,8 @@
         <translation>ne</translation>
     </message>
     <message>
-        <source>0 PIV</source>
-        <translation>0 PIV</translation>
+        <source>0 DWE</source>
+        <translation>0 DWE</translation>
     </message>
     <message>
         <source>Confirmation time:</source>
@@ -798,7 +798,7 @@
     </message>
     </context>
 <context>
-    <name>ZPivControlDialog</name>
+    <name>ZDweControlDialog</name>
     <message>
         <source>0</source>
         <translation>0</translation>

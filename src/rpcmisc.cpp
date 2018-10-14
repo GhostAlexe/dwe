@@ -65,17 +65,17 @@ Value getinfo(const Array& params, bool fHelp)
             "  \"difficulty\": xxxxxx,       (numeric) the current difficulty\n"
             "  \"testnet\": true|false,      (boolean) if the server is using testnet or not\n"
             "  \"moneysupply\" : \"supply\"       (numeric) The money supply when this block was added to the blockchain\n"
-            "  \"zPIVsupply\" :\n"
+            "  \"zDWEsupply\" :\n"
             "  {\n"
-            "     \"1\" : n,            (numeric) supply of 1 zPIV denomination\n"
-            "     \"5\" : n,            (numeric) supply of 5 zPIV denomination\n"
-            "     \"10\" : n,           (numeric) supply of 10 zPIV denomination\n"
-            "     \"50\" : n,           (numeric) supply of 50 zPIV denomination\n"
-            "     \"100\" : n,          (numeric) supply of 100 zPIV denomination\n"
-            "     \"500\" : n,          (numeric) supply of 500 zPIV denomination\n"
-            "     \"1000\" : n,         (numeric) supply of 1000 zPIV denomination\n"
-            "     \"5000\" : n,         (numeric) supply of 5000 zPIV denomination\n"
-            "     \"total\" : n,        (numeric) The total supply of all zPIV denominations\n"
+            "     \"1\" : n,            (numeric) supply of 1 zDWE denomination\n"
+            "     \"5\" : n,            (numeric) supply of 5 zDWE denomination\n"
+            "     \"10\" : n,           (numeric) supply of 10 zDWE denomination\n"
+            "     \"50\" : n,           (numeric) supply of 50 zDWE denomination\n"
+            "     \"100\" : n,          (numeric) supply of 100 zDWE denomination\n"
+            "     \"500\" : n,          (numeric) supply of 500 zDWE denomination\n"
+            "     \"1000\" : n,         (numeric) supply of 1000 zDWE denomination\n"
+            "     \"5000\" : n,         (numeric) supply of 5000 zDWE denomination\n"
+            "     \"total\" : n,        (numeric) The total supply of all zDWE denominations\n"
             "  }\n"
             "  \"keypoololdest\": xxxxxx,    (numeric) the timestamp (seconds since GMT epoch) of the oldest pre-generated key in the key pool\n"
             "  \"keypoolsize\": xxxx,        (numeric) how many new keys are pre-generated\n"
@@ -108,12 +108,12 @@ Value getinfo(const Array& params, bool fHelp)
     obj.push_back(Pair("difficulty", (double)GetDifficulty()));
     obj.push_back(Pair("testnet", Params().TestnetToBeDeprecatedFieldRPC()));
     obj.push_back(Pair("moneysupply",ValueFromAmount(chainActive.Tip()->nMoneySupply)));
-    Object zpivObj;
+    Object zdweObj;
     for (auto denom : libzerocoin::zerocoinDenomList) {
-        zpivObj.push_back(Pair(to_string(denom), ValueFromAmount(chainActive.Tip()->mapZerocoinSupply.at(denom) * (denom*COIN))));
+        zdweObj.push_back(Pair(to_string(denom), ValueFromAmount(chainActive.Tip()->mapZerocoinSupply.at(denom) * (denom*COIN))));
     }
-    zpivObj.emplace_back(Pair("total", ValueFromAmount(chainActive.Tip()->GetZerocoinSupply())));
-    obj.emplace_back(Pair("zPIVsupply", zpivObj));
+    zdweObj.emplace_back(Pair("total", ValueFromAmount(chainActive.Tip()->GetZerocoinSupply())));
+    obj.emplace_back(Pair("zDWEsupply", zdweObj));
     
 #ifdef ENABLE_WALLET
     if (pwalletMain) {

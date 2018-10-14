@@ -266,7 +266,7 @@
     </message>
     </context>
 <context>
-    <name>ZPivControlDialog</name>
+    <name>ZDweControlDialog</name>
     </context>
 <context>
     <name>dwe-core</name>
